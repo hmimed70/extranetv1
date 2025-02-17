@@ -6,6 +6,11 @@ import img3 from '../assets/3.jpg';
 const Blog = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
+      {/* Section title */}
+      <h1 className="text-4xl font-semibold text-gray-800 text-center mb-8">
+        Activités
+      </h1>
+
       {/* Main blog section */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Main article */}
